@@ -32,7 +32,9 @@ Get-ItemProperty -Path HKLM:\Software\Microsoft\Windows\CurrentVersion\OEMInform
 Set new Model name
 Set-ItemProperty -Path HKLM:\Software\Microsoft\Windows\CurrentVersion\OEMInformation -name "Model" -Value "Logitech Image:M203"
 
-
+```
 Set need to re-image
+```
+```
 Set-ItemProperty -Path HKLM:\Software\Microsoft\Windows\CurrentVersion\OEMInformation -name "Model" -Value "Needs to be RE-IMAGE"
 ```
